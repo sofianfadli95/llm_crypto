@@ -1,0 +1,220 @@
+question,document
+What is a blockchain?,ccb39dc7
+How is a blockchain different from traditional databases?,ccb39dc7
+Can you explain what smart contracts are in the context of a blockchain?,ccb39dc7
+What are some of the additional functions that blockchains can execute besides transaction settlements?,ccb39dc7
+How did the Bitcoin blockchain contribute to blockchain technology?,ccb39dc7
+What is blockchain software?,667d9237
+What was the first blockchain software?,667d9237
+Is Bitcoin's blockchain software open source?,667d9237
+Does Ethereum have its own blockchain software?,667d9237
+Are all blockchain software efforts publicly available?,667d9237
+questions,84efe905
+answers,84efe905
+What does a blockchain system encompass?,e3753a49
+Who are some experts that mention the variety of blockchains?,e3753a49
+What can help us understand the characteristics of a blockchain?,e3753a49
+What are some qualifiers that describe blockchains?,e3753a49
+What are the different aspects that are part of a blockchain system?,e3753a49
+How are digital transactions grouped in a blockchain network?,cb10bf88
+What role do nodes play in a blockchain network?,cb10bf88
+"Who are miners, and what do they do?",cb10bf88
+How is a block of transactions connected to the previous one?,cb10bf88
+What is a hash function in the context of blockchain?,cb10bf88
+What differentiates blockchain applications from conventional software applications?,e0db44d0
+How does a decentralized architecture benefit blockchain applications?,e0db44d0
+What are cryptoeconomic systems in the context of blockchain applications?,e0db44d0
+Can you give examples of blockchain applications currently used on the Ethereum ecosystem?,e0db44d0
+What roles do tokenizing assets and new network incentives play in blockchain applications?,e0db44d0
+What advantages does blockchain provide?,8d819432
+How does blockchain benefit organizations?,8d819432
+Why is blockchain considered secure?,8d819432
+How does blockchain facilitate data sharing?,8d819432
+What incentivization mechanisms are built into blockchain?,8d819432
+What makes blockchain a disruptive technology?,11c0cfe7
+How does blockchain safeguard personal information?,11c0cfe7
+Why is blockchain called the Trust Machine?,11c0cfe7
+What impact does blockchain have on intermediaries?,11c0cfe7
+How does blockchain affect the global economy?,11c0cfe7
+What does DeFi stand for and what does it refer to?,caf8ea07
+"Can anyone participate in DeFi applications, and what makes this possible?",caf8ea07
+What elements define a DeFi application?,caf8ea07
+How has DeFi impacted the financial system?,caf8ea07
+What is the purpose of DeFi Score?,caf8ea07
+What does the term 'block' refer to in blockchain technology?,83f912dd
+How is a new block added to an existing blockchain?,83f912dd
+What ensures that only one block can exist at a given chain height?,83f912dd
+How does the network validate a new block of transactions?,83f912dd
+What are some methods used to add new blocks to a blockchain?,83f912dd
+What is block time in cryptocurrency?,04090abf
+How long does it take to add a new block on Ethereum?,04090abf
+Can the time to add a block vary on different blockchains?,04090abf
+Is a blockchain a linear construct?,04090abf
+Why is linearity important in blockchain validation?,04090abf
+What is distributed ledger technology?,057dc44a
+How does distributed ledger technology maintain a digital record?,057dc44a
+How does blockchain technology enhance a distributed ledger?,057dc44a
+What functions does blockchain technology add to a distributed ledger?,057dc44a
+Why is blockchain technology important for security and trust?,057dc44a
+What keys do a blockchain wallet contain?,bcd99661
+How can cryptocurrency be transferred to your address?,bcd99661
+Where is the safest place to store digital assets?,bcd99661
+What is the purpose of a private key in a blockchain wallet?,bcd99661
+What additional features often accompany a blockchain wallet?,bcd99661
+What distinguishes blockchain programming from other Internet ventures?,e32e256b
+What has caused the demand for blockchain programmers to grow recently?,e32e256b
+How long does it take to become a blockchain expert through Consensys Academy?,e32e256b
+Who teaches the Consensys Academy’s Developer Program?,e32e256b
+Which blockchain development does the Consensys Academy focus on?,e32e256b
+What defines a blockchain company?,7d5858ff
+Which report ranks blockchain-based decentralized applications?,7d5858ff
+Who released a report on top blockchain companies?,7d5858ff
+What kind of companies are considered blockchain companies?,7d5858ff
+How does State of the Dapps rank applications?,7d5858ff
+questions,6e5e130c
+What is the full form of zk-SNARK?,4c6c08e5
+How do zk-SNARKs help in verifying transactions?,4c6c08e5
+Can zk-SNARKs keep transaction data private?,4c6c08e5
+Do users need to interact to verify transactions with zk-SNARKs?,4c6c08e5
+Where can I find a technical walkthrough of zk-SNARKs?,4c6c08e5
+question1,8fd8812d
+question2,8fd8812d
+question3,8fd8812d
+question4,8fd8812d
+question5,8fd8812d
+What is the role of nodes in the Ethereum network?,a4e48bdd
+What is the Ethereum Virtual Machine (EVM) and what does it do?,a4e48bdd
+How do smart contracts operate within the Ethereum ecosystem?,a4e48bdd
+Which programming languages can be used to develop on Ethereum?,a4e48bdd
+How does Ethereum handle transaction verification?,a4e48bdd
+What constitutes a block in the Ethereum blockchain?,241bbd9a
+How does Ethereum currently verify transactions?,241bbd9a
+Can you define a 'block' in the context of Ethereum?,241bbd9a
+What is a block and how is it verified on Ethereum?,241bbd9a
+What algorithm does Ethereum use to verify blocks of transactions?,241bbd9a
+What is a smart contract in the context of Ethereum?,e97d2b65
+How does Ethereum use smart contracts in banking and finance?,e97d2b65
+In which ways can smart contracts be utilized in supply chain management on Ethereum?,e97d2b65
+What potential applications do Ethereum-based smart contracts have?,e97d2b65
+Can smart contracts on Ethereum support different industries?,e97d2b65
+What is the function of an Ethereum client?,a497c8e2
+Can Ethereum clients interact with each other?,a497c8e2
+Which companies developed some of the popular Ethereum clients?,a497c8e2
+What features does Hyperledger Besu offer?,a497c8e2
+What additional support does PegaSys Plus provide over Hyperledger Besu?,a497c8e2
+What kind of project is Ethereum?,320c4aa2
+Is Ethereum owned by a single entity?,320c4aa2
+How can developers contribute to Ethereum?,320c4aa2
+What is MolochDAO's role in Ethereum?,320c4aa2
+What does Gitcoin do for Ethereum?,320c4aa2
+What is Ethereum’s native token?,d184e510
+How are miners compensated for their work on the Ethereum blockchain?,d184e510
+What is gas within the context of Ethereum?,d184e510
+How is the value of gas expressed?,d184e510
+What is the symbol for ether?,d184e510
+What are cryptocurrency addresses used for?,c70131d0
+What is an Ethereum address?,c70131d0
+Why do miners need an etherbase?,c70131d0
+Where can I find a guide on storing Ethereum assets?,c70131d0
+What should I know about seed phrases and security for digital assets?,c70131d0
+questions,12f4a670
+What factors influence Ethereum confirmation times?,86649307
+Where can I check the average wait times for Ethereum transfers?,86649307
+Does the amount of gas I pay affect the transfer time of Ether?,86649307
+Are Ethereum confirmation times consistent?,86649307
+How can I optimize the transfer speed of Ether?,86649307
+What is the Ethereum gas limit?,d1cb650b
+Why are gas limits crucial in Ethereum transactions?,d1cb650b
+What happens if an Ethereum gas limit is too low?,d1cb650b
+How do gas limits protect users and miners in Ethereum?,d1cb650b
+Why do different transactions require varying gas limits in Ethereum?,d1cb650b
+What languages can you use to write Ethereum smart contracts?,f25d123f
+Which programming languages are used for Ethereum's development?,f25d123f
+"On which virtual machine do Solidity, Serpent, and other languages operate?",f25d123f
+What high-level languages target the Ethereum Virtual Machine?,f25d123f
+Is Python used in developing the Ethereum protocol?,f25d123f
+What applications are common for Ethereum?,3c0fedb9
+How do global enterprises benefit from Ethereum?,3c0fedb9
+Why are developers attracted to Ethereum?,3c0fedb9
+How is Ethereum used for payment settlement?,3c0fedb9
+What makes Ethereum a preferred blockchain for business solutions?,3c0fedb9
+question1,80161bff
+question2,80161bff
+question3,80161bff
+question4,80161bff
+question5,80161bff
+How do Bitcoin and Ethereum differ in their core principles?,284aafbf
+What unique feature does Ethereum offer compared to Bitcoin?,284aafbf
+In what programming languages are Bitcoin and Ethereum written?,284aafbf
+What differences exist between the block times and hashing algorithms of Bitcoin and Ethereum?,284aafbf
+Why do Ethereum's developers want to transition to a Proof of Stake system?,284aafbf
+Is Bitcoin or Ethereum a better investment?,481acdd9
+What unique features do Bitcoin and Ethereum offer?,481acdd9
+How does Ethereum differ from Bitcoin in terms of applications?,481acdd9
+What sectors benefit from Ethereum's smart contracts?,481acdd9
+Why is Ethereum's architecture considered suitable for a universal root chain?,481acdd9
+What was the purpose of the Byzantium update in Ethereum?,faba0305
+When did the Byzantium update take place within Ethereum?,faba0305
+How many EIPs were included in the Byzantium upgrade?,faba0305
+What were the key improvements brought by the Byzantium update?,faba0305
+What significant event followed the Byzantium update in Ethereum?,faba0305
+What is the consensus algorithm currently used by the Ethereum blockchain?,6343b601
+Why is Ethereum planning to move to a Proof of Stake (PoS) system?,6343b601
+What issues will Proof of Stake (PoS) solve for Ethereum?,6343b601
+Who is Vlad Zamfir in relation to Ethereum’s PoS system?,6343b601
+How does PoS impact the risk and cost of a 51% attack?,6343b601
+What is the final iteration in Ethereum’s evolution and its name?,c1a4f1af
+When is the first phase of Serenity expected to roll out?,c1a4f1af
+What type of blockchain will the Beacon Chain be?,c1a4f1af
+What will the Beacon Chain be stood up alongside?,c1a4f1af
+Where can one read more about the upcoming stages of Ethereum’s evolution?,c1a4f1af
+What algorithm do Ethereum miners use?,c03ac963
+How are miners rewarded on the Ethereum blockchain?,c03ac963
+What plans exist to change Ethereum's consensus mechanism?,c03ac963
+What is required in Proof of Stake for validators?,c03ac963
+Why is the financial incentive riskier for malicious actors in PoS?,c03ac963
+How quickly can an Ethereum block be mined?,3abb7cc3
+What is the average time to mine a block of Ethereum?,3abb7cc3
+How long does it typically take to mine a single Ethereum block?,3abb7cc3
+What is the standard duration for mining an Ethereum block?,3abb7cc3
+What is the block time for Ethereum mining?,3abb7cc3
+What does the term hashrate mean in relation to Ethereum mining?,312dba9c
+How much hashrate is an Ethereum miner capable of producing?,312dba9c
+Where can I find updates on the current average hashrate for Ethereum?,312dba9c
+"As of July 2019, what was Ethereum's average network hashrate?",312dba9c
+What unit of measurement is used for Ethereum's hashrate?,312dba9c
+Is it difficult to mine Ethereum currently?,145af05a
+Why do most miners use a mining pool for Ethereum?,145af05a
+Can I make profits consistently from solo mining Ethereum?,145af05a
+How long does it take to find a single block when solo mining Ethereum?,145af05a
+What is the advantage of using a mining pool for Ethereum mining?,145af05a
+Can my GPU handle Ethereum mining?,e90e49cc
+Is dedicated hardware needed to mine Ethereum?,e90e49cc
+What role does GPU power play in Ethereum mining?,e90e49cc
+Can I use a powerful computer for Ethereum mining?,e90e49cc
+What do I need to know about my computer's capability to mine Ethereum?,e90e49cc
+What does Ethereum difficulty mean?,3d60bdb7
+How is the difficulty of finding a new block in Ethereum described?,3d60bdb7
+What happens when Ethereum difficulty is higher?,3d60bdb7
+What is the average Ethereum network difficulty as of July 2019?,3d60bdb7
+Where can I check the Ethereum network's average difficulty?,3d60bdb7
+What are mining pools and their significance in Ethereum mining?,e373bc19
+Why is solo Ethereum mining considered impractical?,e373bc19
+What role do cloud mining applications play in Ethereum mining?,e373bc19
+Why is dedicated hardware recommended for mining Ethereum?,e373bc19
+How do cloud mining applications differ from traditional Ethereum mining?,e373bc19
+Is it feasible to mine Ethereum on a personal computer?,0c354bb8
+What kind of software is required to mine Ethereum on a laptop?,0c354bb8
+Why is it impractical to mine Ethereum using a laptop?,0c354bb8
+Are there any products that enhance Ethereum mining efficiency?,0c354bb8
+Do dedicated hardware devices exist for Ethereum mining?,0c354bb8
+Is it feasible to mine Ethereum using a Mac?,dc6d4628
+What is the effectiveness of mining Ethereum on Mac computers?,dc6d4628
+Can I use my Mac to mine Ethereum effectively?,dc6d4628
+Is it possible to mine Ethereum with a Mac or do I need special hardware?,dc6d4628
+Are dedicated hardware setups necessary for mining if I have a Mac?,dc6d4628
+What factors determine the daily Ethereum mining reward?,61ffef3f
+How much can miners in top mining pools earn daily from Ethereum mining?,61ffef3f
+What percentage of newly found blocks is mined by the top five mining pools?,61ffef3f
+"Which mining pool found over 11,000 blocks in a week according to Alethio's report?",61ffef3f
+Why is participation in a mining pool significant for Ethereum miners?,61ffef3f
