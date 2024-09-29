@@ -169,7 +169,7 @@ Now, the application already running.
 1. You can open your Anaconda terminal and change directory the llm app project :
 For example :
 ```bash
-cd C:\Users\sofia\llm_project_crypto
+cd C:\Users\sofia\llm_project_crypto\app
 ```
 2. Now, run the `prep.py` script with the command :
 ```bash
@@ -183,12 +183,27 @@ python prep.py
 1. You can open your Anaconda terminal and change directory the llm app project :
 For example :
 ```bash
-cd C:\Users\sofia\llm_project_crypto
+cd C:\Users\sofia\llm_project_crypto\app
 ```
 2. Now, run the `db.py` script with the command :
 ```bash
 python db.py
 ```
+
+## Generate fake data
+1. You can open your Anaconda terminal and change directory the llm app project :
+For example :
+```bash
+cd C:\Users\sofia\llm_project_crypto\app
+```
+2. Now, run the `db.py` script with the command :
+```bash
+python generate_data.py
+```
+
+<p align="center">
+  <img src="images/python_generate_data.png">
+</p>
 
 ## Application Code
 
@@ -249,4 +264,39 @@ We have the following notebooks:
 - [`offline-rag-evaluation-crypto.ipynb`](notebooks/offline-rag-evaluation-crypto.ipynb): Evaluate RAG System to generate answer for each ChatGPT Model.
 - [`LLM-as-a-Judge.ipynb`](notebooks/LLM-as-a-Judge.ipynb): Evaluate RAG System using LLM as Judge.
 
+## Monitoring
 
+We use Grafana for monitoring the application. 
+
+It's accessible at [localhost:3000](http://localhost:3000):
+
+- Login: "admin"
+- Password: "admin"
+
+<p align="center">
+  <img src="images/login_grafana.png">
+</p>
+
+<p align="center">
+  <img src="images/home_grafana.png">
+</p>
+
+### Dashboards
+
+<p align="center">
+  <img src="images/dash_panel_1.png">
+</p>
+
+<p align="center">
+  <img src="images/dash_panel_2.png">
+</p>
+
+The monitoring dashboard contains several panels:
+
+1. **Recent Conversations (Table):** Displays a table showing the five most recent conversations, including details such as the question, answer, relevance, and timestamp. This panel helps monitor recent interactions with users.
+2. **Feedback Statistics (Pie Chart):** A pie chart that visualizes the feedback from users, showing the count of positive (thumbs up) and negative (thumbs down) feedback received. This panel helps track user satisfaction.
+3. **Relevance Distribution (Gauge):** A gauge chart representing the relevance of the responses provided during conversations. The chart categorizes relevance and indicates thresholds using different colors to highlight varying levels of response quality.
+4. **OpenAI Cost (Time Series):** A time series line chart depicting the cost associated with OpenAI usage over time. This panel helps monitor and analyze the expenditure linked to the AI model's usage.
+5. **Token Usage (Time Series):** Another time series chart that tracks the number of tokens used in conversations over time. This helps to understand the usage patterns and the volume of data processed.
+6. **Model Usage (Bar Chart):** A bar chart displaying the count of conversations based on the different models used. This panel provides insights into which AI models are most frequently used.
+7. **Response Time (Time Series):** A time series chart showing the response time of conversations over time. This panel is useful for identifying performance issues and ensuring the system's responsiveness.
