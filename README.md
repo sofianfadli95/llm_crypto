@@ -241,7 +241,7 @@ jupyter notebook
 We have the following notebooks:
 
 - [`Prepare_faq_data.ipynb`](notebooks/Prepare_faq_data.ipynb): Transform data from text format to become json format
-- [`Part 1 - RAG Intro.ipynb`](notebooks/Part 1 - RAG Intro.ipynb): Create RAG Pipeline
+- [`rag_intro.ipynb`](notebooks/rag_intro.ipynb): Create RAG Pipeline
 - [`ground-truth-data-crypto.ipynb`](notebooks/ground-truth-data-crypto.ipynb): Generating the ground truth dataset for retrieval evaluation.
 - [`evaluate-text-crypto.ipynb`](notebooks/evaluate-text-crypto.ipynb): Evaluate searching result based on text search.
 - [`evaluate-vector-crypto.ipynb`](notebooks/evaluate-vector-crypto.ipynb): Evaluate searching result based on vector search.
