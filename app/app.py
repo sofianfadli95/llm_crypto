@@ -46,6 +46,7 @@ def main():
     if st.button("Ask"):
         print_log(f"User asked: '{user_input}'")
         with st.spinner("Processing..."):
+            print(f"conversation_id now : {st.session_state.conversation_id}")
             print_log(
                 f"Getting answer from assistant using {model_choice} model and {search_type} search"
             )
@@ -75,6 +76,7 @@ def main():
     col1, col2 = st.columns(2)
     with col1:
         if st.button("+1"):
+            print(f"conversation_id now : {st.session_state.conversation_id}")
             st.session_state.count += 1
             print_log(
                 f"Positive feedback received. New count: {st.session_state.count}"
@@ -85,6 +87,7 @@ def main():
             st.session_state.conversation_id = str(uuid.uuid4())
     with col2:
         if st.button("-1"):
+            print(f"conversation_id now : {st.session_state.conversation_id}")
             st.session_state.count -= 1
             print_log(
                 f"Negative feedback received. New count: {st.session_state.count}"

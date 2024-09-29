@@ -14,6 +14,15 @@ This project was implemented for
 [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) -
 a free course about LLMs and RAG.
 
+To see a demo of the project, check this video:
+
+
+<p align="center">
+  <a href="https://drive.google.com/file/d/1sv5z-O1nkH5QIrlscYG9qBT_mvKbiUKV/view?usp=sharing">
+    <img src="https://drive.google.com/file/d/1sv5z-O1nkH5QIrlscYG9qBT_mvKbiUKV/view?usp=sharing">
+  </a>
+</p>
+
 ## Project overview
 The Cryptocurreny Personal Assistant is a RAG application designed to assist
 users with their investing knowledge :
