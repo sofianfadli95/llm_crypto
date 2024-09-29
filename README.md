@@ -14,6 +14,33 @@ This project was implemented for
 [LLM Zoomcamp](https://github.com/DataTalksClub/llm-zoomcamp) -
 a free course about LLMs and RAG.
 
+## Project overview
+The Cryptocurreny Personal Assistant is a RAG application designed to assist
+users with their investing knowledge :
+
+The main use cases include:
+1. Ask basic fundamental : help user to answer anything question related to fundamental in cryptocurreny
+2. Ask new product : help user to ask new cryptocurreny product which already released.
+3. Find Hot Topics : give user the new information about hot topics in cryptocurreny community.
+4. Give Recommendation (Not Yet Develop) : give user recommendation what cryptocurreny good to buy for long or short period of time
+
+## Dataset
+The dataset used in this project I get from scraping in website forums.
+The data contains question and answer related to the cryptocurrency.
+
+List website which already scraped :
+- https://consensys.io/knowledge-base/blockchain-super-faq
+
+Notes : url to be scraped will be growth. 
+But for now, due to time constraints, I will try scraping using the existing URL first.
+
+## How to Scraping the FAQ Website?
+I create a Python script to do that.
+And with the help of Beautiful Soup packages, I can parsed the questions and answers which I needed to be my RAG Knowledged.
+The code for the application is in the [`scraper_bot`](scraper_bot/) folder:
+- [`scraping_faq.py`](scraper_bot/scraping_faq.py) - Main script to get FAQ data from the target website.
+
+## User Interface for Cryptocurreny Personal Assistant
 <p align="center">
   <img src="images/web_llm_crypto.png">
 </p>
@@ -79,13 +106,19 @@ pip install tqdm notebook==7.1.2 openai elasticsearch pandas scikit-learn ipywid
 <p align="center">
   <img src="images/cmd_anaconda.png">
 </p>
+
 8. You must install Docker Desktop, because we need that to run our images application.
 You can download in this [url](https://www.docker.com/products/docker-desktop/)
+
 9. After that, open and running Docker Desktop.
 <p align="center">
   <img src="images/docker_desktop.png">
 </p>
+
 10. Test in the terminal to check if Docker Desktop already installed correctly or not.
+```bash
+docker --version
+```
 <p align="center">
   <img src="images/test_docker_version.png">
 </p>
@@ -99,6 +132,7 @@ In this example, I create directory with the name **llm_project_crypto**
 <p align="center">
   <img src="images/cd_llm_project.png">
 </p>
+
 3. Now, clone llm crypto project repository in github using this command :
 ```bash
 git clone https://github.com/sofianfadli95/llm_crypto.git
@@ -110,6 +144,7 @@ cd llm_crypto\app
 <p align="center">
   <img src="images/llm_crypto_app.png">
 </p>
+
 5. Notes : Make sure you already install Docker Desktop to run in this step!!!
 Now, you can pull docker images first with command :
 ```bash
@@ -119,3 +154,16 @@ or you can directly pull images and start running the images in the background w
 ```bash
 docker-compose up -d
 ```
+<p align="center">
+  <img src="images/docker_compose_up.png">
+</p>
+
+6. You can check too on the Docker Desktop which images already running.
+<p align="center">
+  <img src="images/docker_desktop_running.png">
+</p>
+
+Now, the application already running.
+
+## Generate initial 
+
