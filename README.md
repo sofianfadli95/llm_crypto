@@ -19,7 +19,7 @@ To see a demo of the project, check this video:
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1sv5z-O1nkH5QIrlscYG9qBT_mvKbiUKV/view?usp=sharing">
-    <img src="https://drive.google.com/file/d/1sv5z-O1nkH5QIrlscYG9qBT_mvKbiUKV/view?usp=sharing">
+    <img src="images/llm_demo_crypto.png">
   </a>
 </p>
 
