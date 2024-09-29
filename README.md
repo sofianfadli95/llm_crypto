@@ -211,7 +211,7 @@ This repository is used to become Data Ingestion Pipeline for ingest data into k
 </p>
 
 The code for the Airflow Data Pipeline is in the [`airflow_dag`](airflow_dag/) folder:
-- [`rag_ingestion.py`](airflow_dag/rag_ingestion.py) - DAG script for scraping, cleaning, transformation, until ingest into knowledge base.
+- [`rag_ingestion.py`](airflow_dag/dags/rag_ingestion.py) - DAG script for scraping, cleaning, transformation, until ingest into knowledge base.
 - [`Dockerfile`](airflow_dag/Dockerfile) - Docker file which will created airflow custom images, because we need airflow which has external python packages to create RAG Pipeline.
 - [`docker-compose.yaml`](airflow_dag/docker-compose.yaml) - Docker compose file which will created airflow container based on custom airflow images
 
