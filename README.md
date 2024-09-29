@@ -165,5 +165,65 @@ docker-compose up -d
 
 Now, the application already running.
 
-## Generate initial 
+## Generate initial RAG Data
+1. You can open your Anaconda terminal and change directory the llm app project :
+For example :
+```bash
+cd C:\Users\sofia\llm_project_crypto
+```
+2. Now, run the `prep.py` script with the command :
+```bash
+python prep.py
+```
+<p align="center">
+  <img src="images/python_prep_rag.png">
+</p>
+
+## Set Initial Database
+1. You can open your Anaconda terminal and change directory the llm app project :
+For example :
+```bash
+cd C:\Users\sofia\llm_project_crypto
+```
+2. Now, run the `db.py` script with the command :
+```bash
+python db.py
+```
+
+## Application Code
+
+The code for the application is in the [`app`](app/) folder:
+
+- [`app.py`](app/app.py) - Streamlit application, the main entrypoint to the application
+- [`assistant.py`](app/assistant.py) - the main RAG logic for building the retrieving the data and building the prompt
+- [`generate_data.py`](app/ingest.py) - loading the data into the knowledge base
+- [`db.py`](app/db.py) - the logic for logging the requests and responses to postgres
+- [`db_prep.py`](app/db_prep.py) - the script for initializing the database
+
+## Data Ingestion Pipeline
+
+We use Airflow for data ingestion pipeline. 
+
+This repository is used to become Data Ingestion Pipeline for ingest data into knowledge base.
+
+<p align="center">
+  <img src="images/airflow_scaper_pipeline.png">
+</p>
+
+The code for the Airflow Data Pipeline is in the [`airflow_dag`](airflow_dag/) folder:
+- [`rag_ingestion.py`](airflow_dag/rag_ingestion.py) - DAG script for scraping, cleaning, transformation, until ingest into knowledge base.
+- [`Dockerfile`](airflow_dag/Dockerfile) - Docker file which will created airflow custom images, because we need airflow which has external python packages to create RAG Pipeline.
+- [`docker-compose.yaml`](airflow_dag/docker-compose.yaml) - Docker compose file which will created airflow container based on custom airflow images
+
+This is example Web Interface for Airflow :
+
+It's accessible at [localhost:8080](http://localhost:8080):
+
+- Login: "airflow"
+- Password: "airflow"
+
+<p align="center">
+  <img src="images/airflow_pipeline.png">
+</p>
+
 
