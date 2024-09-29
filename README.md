@@ -226,4 +226,27 @@ It's accessible at [localhost:8080](http://localhost:8080):
   <img src="images/airflow_pipeline.png">
 </p>
 
+## Experiments
+
+For experiments, we use Jupyter notebooks.
+They are in the [`notebooks`](notebooks/) folder.
+
+To start Jupyter, run:
+
+```bash
+cd notebooks
+jupyter notebook
+```
+
+We have the following notebooks:
+
+- [`Prepare_faq_data.ipynb`](notebooks/Prepare_faq_data.ipynb): Transform data from text format to become json format
+- [`Part 1 - RAG Intro.ipynb`](notebooks/Part 1 - RAG Intro.ipynb): Create RAG Pipeline
+- [`ground-truth-data-crypto.ipynb`](notebooks/ground-truth-data-crypto.ipynb): Generating the ground truth dataset for retrieval evaluation.
+- [`evaluate-text-crypto.ipynb`](notebooks/evaluate-text-crypto.ipynb): Evaluate searching result based on text search.
+- [`evaluate-vector-crypto.ipynb`](notebooks/evaluate-vector-crypto.ipynb): Evaluate searching result based on vector search.
+- [`evaluate_using_seaborn.ipynb`](notebooks/evaluate_using_seaborn.ipynb): Compare LLM Result with the original answer for each ChatGPT Model in visualization.
+- [`offline-rag-evaluation-crypto.ipynb`](notebooks/offline-rag-evaluation-crypto.ipynb): Evaluate RAG System to generate answer for each ChatGPT Model.
+- [`LLM-as-a-Judge.ipynb`](notebooks/LLM-as-a-Judge.ipynb): Evaluate RAG System using LLM as Judge.
+
 
