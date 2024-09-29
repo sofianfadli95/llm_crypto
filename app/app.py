@@ -70,8 +70,6 @@ def main():
                 st.session_state.conversation_id, user_input, answer_data
             )
             print_log("Conversation saved successfully")
-            # Generate a new conversation ID for next question
-            st.session_state.conversation_id = str(uuid.uuid4())
 
     # Feedback buttons
     col1, col2 = st.columns(2)
@@ -83,6 +81,8 @@ def main():
             )
             save_feedback(st.session_state.conversation_id, 1)
             print_log("Positive feedback saved to database")
+            # Generate a new conversation ID for next question
+            st.session_state.conversation_id = str(uuid.uuid4())
     with col2:
         if st.button("-1"):
             st.session_state.count -= 1
@@ -91,6 +91,8 @@ def main():
             )
             save_feedback(st.session_state.conversation_id, -1)
             print_log("Negative feedback saved to database")
+            # Generate a new conversation ID for next question
+            st.session_state.conversation_id = str(uuid.uuid4())
 
     st.write(f"Current count: {st.session_state.count}")
 
